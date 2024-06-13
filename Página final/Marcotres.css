@@ -1,0 +1,78 @@
+html { font-size: 16px;
+ background-image: url("Fondochispas.jpg"); }
+
+body { font-family: Algerian; width: 850px; margin: 0 auto; background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20231012/pngtree-vintage-canvas-aged-paper-background-texture-image_13615812.png");
+ padding: 0 20px 20px 20px; border: 5px solid darkred; border-radius: 10px; }
+
+ h1 {  text-align: center;
+ text-shadow: 9px 9px 9px black; }
+
+ hr { background-color: darkred;
+ border-top-color: black; border-bottom-color: black; border-left-color: black; border-right-color: black; border-radius: 9px; }
+
+p { text-shadow: 9px 9px 9px black; }
+
+* { 
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+
+.container .img_container {
+ width: 350px;
+height: 450px;
+margin-bottom: 20px;    
+}
+
+.container .img_container .main_img {
+width: 225%;
+height: 100%;
+border-radius: 5px;
+box-shadow: 0 5px 5px solid black; 
+object-fit: cover;
+}
+
+.container .thumbnail_container {
+height: 80px;
+display: flex;
+justify-content: space-between;   
+}
+
+.container .thumbail_container .thumbnail {
+width: 80px;
+height: 80px;
+border-radius: 5px;
+cursor: pointer;
+object-fit: cover; 
+opacity: .7; 
+transition-duration: 0.6s;
+}
+
+.container .thumbail_container .thumbanil:hover {
+opacity: 1;       
+}
+
+.active { 
+opacity: 1  !important;
+box-shadow: 0 5px 5px;
+}
+
+.active:hover  { background: #c11919; transition-duration: 0.5s; border-radius: 6px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

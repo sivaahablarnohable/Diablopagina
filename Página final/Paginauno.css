@@ -1,0 +1,23 @@
+html { font-size: 16px;
+    background-image: url("Fondochispas.jpg"); }
+   
+   body { font-family: Algerian; width: 850px; margin: 0 auto; background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20231012/pngtree-vintage-canvas-aged-paper-background-texture-image_13615812.png");
+    padding: 0 20px 20px 20px; border: 5px solid darkred; border-radius: 10px; }
+   
+    h1 { font-family: old english text mt;  text-align: center;
+    text-shadow: 9px 9px 9px black; }
+   
+    hr { background-color: darkred;
+    border-top-color: black; border-bottom-color: black; border-left-color: black; border-right-color: black; border-radius: 9px; }
+   
+   p { text-shadow: 9px 9px 9px black; }
+
+   h2 { text-align: left;
+    text-shadow: 9px 9px 9px black;}
+
+   a { color: black; text-align: left;
+    text-shadow: 9px 9px 9px black;}
+
+   div { width: 200px; border: 9px solid black; border-radius: 9px;}
+
+   iframe { border-radius: 10px;}

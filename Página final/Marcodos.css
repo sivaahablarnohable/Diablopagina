@@ -1,0 +1,33 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif; }
+
+header { display: flex; align-items: center; justify-content: space-between; padding: 2rem; background-image: url("Fuegodos\ \(1\).jpg");}
+
+.logo { max-width: 5rem;}
+
+.nav-list { list-style-type: none; display: flex; gap: 1rem; }
+
+.nav-list li a { text-decoration: none; color: #1c1c1c; }
+
+.abrir-menu { display: none; }
+
+@media screen and (max-width: 550px) { .abrir-menu,.cerrar-menu { display: block;} .nav { opacity: 0; visibility: hidden; transition-duration: 0.4s;}
+.nav {display: flex; flex-direction: column; align-items: end; gap: 1rem; position: absolute; top: 0; right: 0; bottom: 0; background-color: black; padding: 2rem; box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5); } .nav.visible { opacity: 1; visibility: visible; transition-duration: 0.4s;} .nav-list { flex-direction: column; align-items: end;}
+    
+.nav-list li a { color: white;} }
+
+.nav-list li a:hover { background: #c11919; transition-duration: 0.5s; border-radius: 6px; }
+
+.abrir-menu:hover { background: red; transition-duration: 0.5s; }
+
+.boton { min-width: 1200px; display: block;}
+
+.boton a { text-decoration: none; font-size: 40px; width: 70px; height: 70px; line-height: 70px; text-align: center;
+color: rgb(230, 33, 33); border-radius: 50%; box-shadow: 2px 2px 5px red; background-color: black; transition: all .4s ease-in-out; }
+
+.boton a:hover { transform: scale(1.2);}
+
+h1 { font-family: Algerian; color: black; text-shadow: 9px 9px 9px black; width: 180px; border: 7px solid black; border-radius: 8px; background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvtTxV76Ei5H29ArbXAljFPCEM706mmO7_bw&s"); margin: 0 auto; }
+
+img { border-radius: 9px; }
+
+
